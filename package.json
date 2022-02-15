@@ -1,0 +1,31 @@
+{
+  "name": "f1-experiment",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/three": "^0.137.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "cannon-es": "^0.19.0",
+    "cannon-es-debugger": "^1.0.0",
+    "eslint": "^8.9.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.2",
+    "vite-plugin-glsl": "0.0.9"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "three": "^0.137.5"
+  }
+}
